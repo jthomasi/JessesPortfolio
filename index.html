@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jesse's Bootstrap Portfolio Page</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>My Work</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div id="headingText" class="text-vertical-center">
+            <h2>Hiya, my name is</h2>
+            <h1>Jesse Thomas</h1>
+            <hr width=25%>
+            <h3>& I am a Web Developer living in Austin, TX</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="#portfolio" class="btn btn-dark btn-lg">Check out my work</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <h2 id="aboutMeHeader" style="text-align:center">About Me</h2>
+            </div>
+            <br>
+            <div class="row" style="text-align:center">
+                <br>
+                <div class="text-center">
+                    <h4>Hello! My name is Jesse A. Thomas and I am a Full Stack Web Developer living in Austin, TX. I recently graduated from the Coding Bootcamp at the University of Texas at Austin. I also recieved a Bachelors of Science in Mathematics from St. Edward's Univeristy in Austin, TX. I am mainly interested in back-end and UX web development and have focused a lot of my time on server side work when developing applications. I am eager to begin my career in web development and am excited about the prospect of expanding my knowledge of computer programming.</h4>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div style="text-align:center">
+                    <img class="img-portfolio img-responsive" src="img/profileimg.png">
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>My Work</h2>
+                    <br><br><br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/jthomasi/splitit" target="_blank">
+                                    <h1>Splitit</h1>
+                                </a>
+                                    
+                                <h4>A bill management app for roommates running on with Nodejs, React, and MongoDB</h4>
+                                    
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="https://gig-ly.herokuapp.com/" target="_blank">
+                                    <h1>Gig.ly</h1>
+                                </a>
+                                    
+                                <h4>A scheduling application for managers trying to simplify booking individual jobs</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="https://redirect-games-7f2e4.firebaseapp.com/" target="_blank">
+                                    <h1>RedirectGames</h1>
+                                </a>
+                                    
+                                <h4>A hub for gaming! Uses ajax requests to pull data from various gaming sites to be displayed on one page</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="https://floating-lake-59059.herokuapp.com/" target="_blank">
+                                    <h1>aLanza</h1>
+                                </a>
+                                    
+                                <h4>A live HTML portfolio page that I designed and launched for artist, Anthony Lanza</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/jthomasi/FriendFinder.git" target="_blank">
+                                    <h1>Friend Finder</h1>
+                                </a>
+                                    
+                                <h4>A nodejs and MySQL application that acts as a dating/friend finding service</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="portfolio-item">
+                                <a href="https://github.com/jthomasi/HackerNews" target="_blank">
+                                    <h1>Hacker Scraper</h1>
+                                </a>
+                                    
+                                <h4>A nodejs application that scrpaes the site HackerNews for articles and their titles to be displayed and commented on</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="https://github.com/jthomasi" class="btn btn-dark">View More Work</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside id="contact" class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Send me a message!</h3>
+                    <h6>I'm very friendly.</h6>
+                    <a href="#footer" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#footer" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Thanks for coming.</strong>
+                    </h4>
+                    <p>Austin, TX
+                        </p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">jayayetea@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/jesse.thomas.148?ref=bookmarks" target="_blank"><img src="img/fb-logo.png" height="45" width="45" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jthomasi" target="_blank"><img src="img/LinkedIn_logo.png" height="45" width="45" /></a>
+                            <!--<a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a> -->
+                        </li>
+                        <li>
+                            <a href="https://github.com/jthomasi" target="_blank"><img src="img/github.svg" height="50" width="50" /></a>
+                            <!--<a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>-->
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <br>
+                    <p class="text-muted">Copyright &copy; Jesse Thomas 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
