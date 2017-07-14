@@ -188,8 +188,12 @@
                         <div class="modal-body">
                             <form>
                             <div class="form-group">
-                                <label for="recipient-name" class="form-control-label">Your email:</label>
-                                <input type="text" class="form-control" id="recipient-name" placeholder="email@yours.com">
+                                <label for="name-text" class="form-control-label">Your name:</label>
+                                <input type="text" class="form-control" id="recipient-name" placeholder="Han Solo">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-email" class="form-control-label">Your email:</label>
+                                <input type="text" class="form-control" id="recipient-email" placeholder="email@yours.com">
                             </div>
                             <div class="form-group">
                                 <label for="message-text" class="form-control-label">Message:</label>
@@ -199,7 +203,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Send message to Jesse</button>
+                            <button type="button" id="submitMessage" data-dismiss="modal" class="btn btn-primary">Send message to Jesse</button>
                         </div>
                         </div>
                     </div>
@@ -249,6 +253,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/notify.js"></script>
+    <!-- <script src="./node_modules/nodemailer"></script> -->
 
     <!-- Custom Theme JavaScript -->
     <script>
@@ -322,6 +329,7 @@
         }
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
+
     </script>
 
 </body>
