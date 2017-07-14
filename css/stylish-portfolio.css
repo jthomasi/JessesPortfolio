@@ -29,6 +29,15 @@ body {
     font-weight: 700;
 }
 
+.header-text {
+    color: white;
+    font-family: Lato;
+}
+
+.about-me {
+    font-family: Lato;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
